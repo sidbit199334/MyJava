@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private void setEmployee(String title, Employee employee, Position postion)&apos; from &apos;com.aa.act.interview.org.Organization.hire()&apos; to &apos;com.aa.act.interview.org.Organization&apos;&#x0D;&#x0A;- Original project: &apos;sample&apos;&#x0D;&#x0A;- Method name: &apos;setEmployee&apos;&#x0D;&#x0A;- Destination type: &apos;com.aa.act.interview.org.Organization&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;setEmployee&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.aa.act.interview.org{Organization.java" name="setEmployee" replace="false" selection="824 164" stamp="1496352810062" version="1.0" visibility="2"/>
+</session>

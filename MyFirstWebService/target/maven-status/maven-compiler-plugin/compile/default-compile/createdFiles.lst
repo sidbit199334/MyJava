@@ -1,0 +1,6 @@
+com\webservices\model\UserRegisters.class
+com\webservices\model\Register.class
+com\webservices\services\RegisterService.class
+com\webservices\dao\RegisterDao.class
+com\webservices\entity\RegisterEntity.class
+com\webservices\controller\UserRegisterController.class

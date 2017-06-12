@@ -1,0 +1,3 @@
+sidhuHibernate\HibernateExamples\util\HibernateUtil.class
+com\infokeys\hib\entity\Students.class
+com\infokeys\hib\client\HibernateInsertClient.class

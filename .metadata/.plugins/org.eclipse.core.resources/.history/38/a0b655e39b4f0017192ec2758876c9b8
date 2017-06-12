@@ -1,0 +1,12 @@
+package Concepts.example;
+
+public interface A {
+	
+	public int srikanth();
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

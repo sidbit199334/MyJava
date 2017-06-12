@@ -1,0 +1,11 @@
+127.0.0.1 - - [19/May/2017:12:21:55 -0700] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [19/May/2017:12:25:07 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [19/May/2017:12:25:17 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [19/May/2017:12:26:27 -0700] "GET /MyFirstWebService/getUserDetails/test HTTP/1.1" 500 4294
+0:0:0:0:0:0:0:1 - - [19/May/2017:12:34:55 -0700] "GET /MyFirstWebService/ HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [19/May/2017:12:35:12 -0700] "GET /MyFirstWebService/userRegister/getUserDetailsByUsername/sidbit HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [19/May/2017:12:35:14 -0700] "GET /MyFirstWebService/userRegister/getUserDetailsByUsername/sidbit HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [19/May/2017:12:35:38 -0700] "GET /MyFirstWebService/user/getUserDetails/sidbit HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [19/May/2017:12:41:09 -0700] "GET /MyFirstWebService/ HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [19/May/2017:12:41:12 -0700] "GET /MyFirstWebService/ HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [19/May/2017:12:42:40 -0700] "GET /MyFirstWebService/user/getUserDetails/sidbit HTTP/1.1" 404 949

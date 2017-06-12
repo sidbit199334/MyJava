@@ -1,0 +1,15 @@
+package Concepts.example;
+
+public class B extends A{
+	
+	public void sid(){
+		
+	}
+
+	public static void main(String[] args) {
+     B obj1 = new B();
+     obj1.sid();
+     obj1.srikanth();
+	}
+
+}

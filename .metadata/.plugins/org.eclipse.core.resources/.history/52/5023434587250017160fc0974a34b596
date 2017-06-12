@@ -1,0 +1,23 @@
+package com.infokeys.webservices.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.infokeys.webservices.model.Employees;
+import com.infokeys.webservices.services.EmployeeService;
+
+@Controller("/employees")
+public class EmployeeController {
+	
+	@Autowired
+	private EmployeeService employeeService;
+	
+	@RequestMapping(value = "/getAllEmployees",method=RequestMethod.GET,headers="Accept=*/*")
+	public @ResponseBody Employees getAllEmployees(){
+		return employeeService.getAllEmployees();
+	}
+
+}
